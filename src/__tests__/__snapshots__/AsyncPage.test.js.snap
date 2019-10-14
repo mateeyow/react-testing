@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AsyncPage /> tests should fetch data successfully 1`] = `
+<div>
+  <div>
+    <div>
+      <h2>
+        sample title
+      </h2>
+      <p>
+        sample body
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AsyncPage /> tests should render the page by default 1`] = `
+<div>
+  No data found
+</div>
+`;
+
+exports[`<AsyncPage /> tests should show an error message 1`] = `
+<div>
+  <div>
+    Something went wrong
+  </div>
+</div>
+`;
